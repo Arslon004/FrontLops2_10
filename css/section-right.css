@@ -1,0 +1,67 @@
+.section_right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section_right{
+  align-self: flex-start;
+}
+.viewed_text{
+  margin: 0;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+.human{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+.human_picture{
+  width: 43px;
+  border-radius: 50%;
+}
+.human_information p{
+  margin: 8px 0 0 0;
+}
+.human_information p:first-child{
+  margin-top: 0;
+  color: #333;
+}
+.human_information p:last-child{
+  color: #abb0b6;
+}
+.human_information{
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+}
+.workers{
+margin-top: 45px;
+}
+.influence{
+  margin: 0;
+  text-transform: uppercase;
+  color: #628392;
+  font-size: 0.8rem;
+}
+.influence_images{
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 23px;
+  margin-bottom: 20px;
+}
+.worker_name{
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-align: center;
+  margin: 0;
+  color: #333;
+}
+.workshop{
+  margin: 0;
+  text-align: center;
+  color: #b5adaa;
+}

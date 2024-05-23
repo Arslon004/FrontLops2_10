@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>loops2_10</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="wrapper">
+      <div class="logo_box header_section">
+        <a href="#">
+          <img class="logo" src="images/logo.png" alt="logo png">
+        </a>
+      </div>
+
+      <div class="search_box header_section">
+        <a href="#">
+          <input type="text" placeholder="Search" class="search_input">
+        </a>
+        <i class="fa-solid fa-magnifying-glass serch"></i>
+      </div>
+
+      <nav class="header_section">
+        <ul>
+          <li class="hover_up"><a href="#" class="nav_link">Home</a></li>
+          <li class="hover_up"><a href="#" class="nav_link">Profile</a></li>
+          <li class="hover_up"><a href="#" class="nav_link">Connections</a></li>
+          <li class="hover_up"><a href="#" class="nav_link">Interest</a></li>
+          <li class="hover_up"><a href="#" class="nav_link premium">Try Premium</a></li>
+        </ul>
+      </nav>
+
+      <div class="notification_box header_section">
+        <i class="fa-solid fa-message"></i>
+        <i class="fa-regular fa-bell"></i>
+        <i class="fa-solid fa-user-plus"></i>
+            </div>
+
+      <div class="my_account-box header_section">
+        <img class="avatar" src="images/avatar.jpg" alt="rasm">
+      </div>
+    </div><!--wrapper-->
+  </header>
+
+  <div class="section_nav">
+    <ul class="wrapper">
+      <li><a class="section-link active" href="#posts">Posts</a></li>
+      <li><a class="section-link " href="#background">Background</a></li>
+      <li><a class="section-link " href="#recommendations">Recommendations</a></li>
+      <li><a class="section-link " href="#following">Following</a></li>
+    </ul>
+  </div>
+  <!--=========================================
+           main_content
+=========================================-->
+  <section class="section">
+
+    <div class="section_left">
+      <img src="images/bill-gates-avatar.png" alt="rasm">
+      <h2 class="author_name">Bill Gates</h2>
+      <p class="author_trade">Microsoft Founder</p>
+      <span class="author_area">Greator Seattle Area</span>
+      <button class="button1">Follow</button>
+      <button class="button2">Connect</button>
+
+      <div class="user">
+
+        <p class="user1">
+          <strong>200</strong>
+          <span>connecti...</span>
+        </p>
+        <p class="user2">
+          <strong>1.9M</strong>
+          <span>followers</span>
+        </p>
+      </div>
+      <hr>
+      <div class="linkiden"><a href="#">linkedin.com/in/billgat...</a></div>
+      <div class="bilgates"><i class="gates fa-solid fa-globe"></i><a href="#">billgates.com</a></div>
+      <hr>
+      <div class="pdf_part"><i class="export fa-solid fa-file-pdf"></i><a href="#">Export page as PDF</a></div>
+    </div>
+    <div class="section_main">
+      <div class="posts_part">
+        <h2 class="post_title">Posts</h2>
+        <hr>
+        <div class="post_images">
+          <div class="box">
+            <img src="images/article1.jpg" alt="" class="box_img">
+            <h2 class="box_title">3 Myths That Confuse Top-Managers</h2>
+            <p class="box_text">February 19, 2016</p>
+          </div>
+
+          <div class="box">
+            <img src="images/article2.jpg" alt="" class="box_img">
+            <h2 class="box_title">How much do we spend on hot drinks</h2>
+            <p class="box_text">February 19, 2016</p>
+          </div>
+
+          <div class="box">
+            <img src="images/article3.jpg" alt="" class="box_img">
+            <h2 class="box_title">Good news you might have noticed</h2>
+            <p class="box_text">February 19, 2016</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="background_part" id="background">
+        <h2 class="background_title">Background</h2>
+        <hr>
+        <div class="boxes_amazon">
+          <div class="icons_part">
+          <i class="fa-solid fa-list icon"></i>
+        <p class="summary heading">Summary</p>
+      </div>
+        <p class="xulosa_qism">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut illo sit adipisci! Sint
+          corrupti reiciendis enim dolorum labore ad minima, totam, aperiam, quibusdam numquam nihil possimus ullam quam
+          quod deleniti laborum inventore modi. Velit, placeat, aliquam repellat iste assumenda fuga molestiae
+          accusamus, voluptatem nihil nemo quidem vero eaque excepturi deserunt? Lorem, ipsum dolor sit amet consectetur
+          adipisicing elit. Fugiat, nam.</p>
+           <div class="icons_part">
+          <i class="fa-solid fa-bag-shopping icon"></i>
+          <p class="experience heading">Experience</p>
+        </div>
+          <div class="box_one">
+            <div class="box_one-left">
+              <p>2000-present</p>
+              <p>Co-founder, Chairman</p>
+              <p>Microsoft</p>
+            </div>
+            <div class="box_one-right">
+              <img src="images/logo-microsoft.png" alt="">
+            </div>
+          </div>
+
+          <div class="box_one">
+            <div class="box_one-left">
+              <p>1992-1999</p>
+              <p>Senior Developer</p>
+              <p>Youtube</p>
+            </div>
+            <div class="box_one-right">
+              <img src="images/logo-youtube.png" alt="">
+            </div>
+          </div>
+            <div class="icons_part">
+          <i class="fa-solid fa-school icon"></i>
+          <p class="heading">Education</p>
+        </div>
+          <div class="education ">
+            <p>1773-1975</p>
+            <p>Harvard University </p>
+            <p>BS-computer Science</p>
+          </div>
+          <div class="education_two">
+            <p>1960-1973</p>
+            <p>Lakeside School, Seattle</p>
+          </div>
+          <div class="icons_part">
+          <i class="fa-solid fa-lightbulb icon"></i>
+          <p class="skills heading">Skills</p>
+        </div>
+          <div class="skills-box">
+            <div class="skills-box_left">
+              <p>74</p>
+              <p>Social Media Marketing</p>
+            </div>
+            <div class="skills-box_right">
+              <img src="./images/avatar.jpg" alt="">
+              <img src="./images/avatar2.jpg" alt="">
+              <img src="./images/avatar3.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="skills-box">
+            <div class="skills-box_left">
+              <p>67</p>
+              <p>Web development</p>
+            </div>
+            <div class="skills-box_right">
+              <img src="./images/avatar2.jpg" alt="">
+              <img src="./images/avatar3.jpg" alt="">
+              <img src="./images/avatar.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="icons_part">
+          <i class="fa-solid fa-star icon"></i>
+          <p class="star heading">Interests</p>
+        </div>
+          <div class="buttons">
+          <button >Wireless Industry</button>
+          <button >Photography</button>
+          <button >Web design</button>
+          <button >technology</button>
+        </div>
+        </div>
+      </div>
+
+      <div class="recomendation_part" id="recommendations">
+        <h2 class="recomendation_part-title">Recomendations</h2>
+        <hr>
+        <div class="recomendation_boxes">
+          <div class="recomendation_box">
+            <p class="recomendation_box_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi a officiis nam eos molestias illum veniam culpa ullam cumque dolores!</p>
+            <div class="recomendation_box_imges">
+              <img src="./images/avatar.jpg" alt="">
+              <div class="recomendation_name">
+                <p>Steve Jobs</p>
+                <p>Apple</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="recomendation_box">
+            <p class="recomendation_box_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi a officiis nam eos molestias illum veniam culpa ullam cumque dolores!</p>
+            <div class="recomendation_box_imges">
+              <img src="./images/avatar2.jpg" alt="">
+              <div class="recomendation_name">
+                <p>Mark Zuckerberg</p>
+                <p>Facebook</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="recomendation_box">
+            <p class="recomendation_box_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi a officiis nam eos molestias illum veniam culpa ullam cumque dolores!</p>
+            <div class="recomendation_box_imges">
+              <img src="./images/avatar3.jpg" alt="">
+              <div class="recomendation_name">
+                <p>Jeffrey Bezos</p>
+                <p>Amazon</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="following_part" id="following">
+        <h2 class="following_part_title">Following</h2>
+        <hr>
+        <div class="following_boxes">
+          <div class="following_box">
+            <img src="images/logo-microsoft.png" alt="">
+            <h2>Microsoft</h2>
+            <p><span>+</span> Follow</p>
+          </div>
+
+          <div class="following_box">
+            <img src="images/logo-amazon.jpg" alt="">
+            <h2>Amazon</h2>
+            <p><strong>+</strong> Follow</p>
+          </div>
+
+          <div class="following_box">
+            <img src="images/logo-microsoft.png" alt="">
+            <h2>Microsoft</h2>
+            <p><span>+</span> Follow</p>
+          </div>
+
+          <div class="following_box">
+            <img src="images/logo-amazon.jpg" alt="">
+            <h2>Amazon</h2>
+            <p><span>+</span> Follow</p>
+          </div>
+
+        </div>
+        <button>see all (20)</button>
+      </div><!--following_part-->
+    </div>
+    <div class="section_right">
+      <p class="viewed_text">People also viewed</p>
+
+      <div class="humans">
+        <div class="human">
+          <img src="./images/avatar.jpg" alt="" class="human_picture">
+          <div class="human_information">
+            <p>Sergey Brin</p>
+            <p>Google</p>
+          </div>
+        </div><!--human-->
+
+        <div class="human">
+          <img src="./images/avatar2.jpg" alt="" class="human_picture">
+          <div class="human_information">
+            <p>Jeffry Bezos</p>
+            <p>Amazon</p>
+          </div>
+        </div><!--human-->
+
+        <div class="human">
+          <img src="./images/avatar3.jpg" alt="" class="human_picture">
+          <div class="human_information">
+            <p>Steve Jobs</p>
+            <p>Apple</p>
+          </div>
+        </div><!--human-->
+      </div>
+
+      <div class="workers">
+        <p class="influence">more influencers</p>
+        <img class="influence_images" src="images/avatar3.jpg" alt="avatar">
+        <h2 class="worker_name">steve jobs</h2>
+        <p class="workshop">Apple</p>
+      </div>
+    </div>
+</body>
+
+</html>

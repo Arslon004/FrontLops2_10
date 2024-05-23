@@ -1,0 +1,90 @@
+.section_left{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  background-color: #fff;
+}
+.section_left{
+  align-self: flex-start;
+}
+.author_name{
+  margin-top: 18px;
+  margin-bottom: 0;
+  color: #333;
+  font-size: .9rem;
+}
+.author_trade{
+  margin: 12px 0;
+  color: #648595;
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+.section_left img{
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.author_area{
+  color: #b2c2cf;
+  font-weight: 100;
+  font-size: 0.8rem;
+  margin-bottom: 13px;
+}
+.section_left button{
+  width: 158px;
+  height: 33px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.section_left button+button{
+  margin-top: 10px;
+}
+.button1{
+  background-color: #5eb6e6;
+  color: #fff;
+}
+.button2{
+  color: #5eb6e6;
+  border: 1px solid #5eb6e6;
+}
+.user{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.user1{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.user2{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.user p{
+  margin: 0;
+}
+.user1 span,.user2 span{
+  color: #adadb6;
+  font-size: 0.9rem;
+}
+.linkiden{
+ margin-top: 25px;
+ display: flex;
+ justify-content: flex-start;
+}
+.linkiden a,.bilgates a, .pdf_part a{
+  color: #adadb6;
+  font-size: 0.8rem;
+}
+.pdf_part{
+  padding: 20px 0;
+}
